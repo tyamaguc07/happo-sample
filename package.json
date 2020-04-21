@@ -8,10 +8,14 @@
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "happo": "happo",
+    "happo-ci": "happo-ci"
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "happo-plugin-storybook": "^2.5.3",
+    "happo.io": "^5.3.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
